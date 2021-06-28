@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "rudawregular2";
+    src:url("rudawregular2.woff") format("woff");
+        }
+body {
+    margin: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2015/10/12/22/43/fox-985292_960_720.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding:15px;
+    user-select: none;
+  }
+
+  .c-white {
+      color: white;
+  }
+  .c-pink {
+      color:rgb(252, 178, 178);
+  }
+  .c-yellow {
+      color:yellow;
+  }
+  .bg-dark{
+      padding:7px;
+      border-radius: 10px;
+      box-shadow: 2px 3px #333;
+      opacity: 0.9;
+  }
+  h2{
+      margin-top:9px;
+      font-family: "rudawregular2";
+  }
+  p{
+      margin-top:8px;
+      font-weight: small;
+  }
+  .cs-card{
+      background-color: #333;
+      padding: 2px;
+      box-shadow: 2px 3px #333;
+      opacity:0.9;
+      border-radius: 10px
+  }
+  .text-right {
+    text-align: right;
+  }
+  ul{
+      color:white;
+      text-align: right;
+      }
+  .collect{
+    color:white;
+    text-align: right;
+  }
+.description-text {
+    font-size:10px;
+    text-align:center;
+    color:grey;   
+}
